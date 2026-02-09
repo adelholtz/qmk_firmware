@@ -1,0 +1,734 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 900 3500"
+    width="900"
+    height="3500"
+>
+<rect width="100%" height="100%" fill="#ffffff" />
+<defs>
+  <linearGradient id="homerow-mods" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#3b82f6" />
+    <stop offset="100%" stop-color="#22d3ee" />
+  </linearGradient>
+  <linearGradient id="layer-switch" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f59e0b" />
+    <stop offset="100%" stop-color="#f97316" />
+  </linearGradient>
+  <linearGradient id="magic-key" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#a855f7" />
+    <stop offset="100%" stop-color="#ec4899" />
+  </linearGradient>
+</defs>
+
+<!-- Title -->
+<text x="50%" y="40" font-family="Arial" font-weight="bold" font-size="28" fill="#2d2d2d" text-anchor="middle">QMK Keebio Iris CE Keymap</text>
+
+<!-- Layer 0: Colemak -->
+<text x="40" y="80" font-family="Arial" font-size="20" fill="#61afef" font-weight="bold">Layer 0: Colemak (Base)</text>
+
+<!-- Row 0 - Number row -->
+<rect x="40" y="120" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="67.5" y="152.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">ESC</text>
+
+<rect x="100" y="120" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="127.5" y="152.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">1</text>
+
+<rect x="160" y="120" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="152.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">2</text>
+
+<rect x="220" y="120" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="152.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">3</text>
+
+<rect x="280" y="120" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="152.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">4</text>
+
+<rect x="340" y="120" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="152.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">5</text>
+
+<!-- Right side row 0 -->
+<rect x="505" y="120" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="152.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">6</text>
+
+<rect x="565" y="120" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="152.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">7</text>
+
+<rect x="625" y="120" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="152.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">8</text>
+
+<rect x="685" y="120" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="152.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">9</text>
+
+<rect x="745" y="120" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="152.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">0</text>
+
+<rect x="805" y="120" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="832.5" y="145" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">BSPC</text>
+
+<!-- Row 1 -->
+<rect x="40" y="185" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="67.5" y="207.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">TAB</text>
+<text x="67.5" y="223" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">⇄</text>
+
+<rect x="100" y="185" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="127.5" y="217.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">Q</text>
+
+<rect x="160" y="185" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="217.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">W</text>
+
+<rect x="220" y="185" width="55" height="55" rx="8" fill="url(#layer-switch)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="207.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F</text>
+<text x="247.5" y="223" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">7</text>
+
+<rect x="280" y="185" width="55" height="55" rx="8" fill="url(#layer-switch)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="207.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">P</text>
+<text x="307.5" y="223" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">6</text>
+
+<rect x="340" y="185" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="217.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">G</text>
+
+<!-- Right side row 1 -->
+<rect x="505" y="185" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="217.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">J</text>
+
+<rect x="565" y="185" width="55" height="55" rx="8" fill="url(#layer-switch)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="207.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">L</text>
+<text x="592.5" y="223" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">6</text>
+
+<rect x="625" y="185" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="217.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">U</text>
+
+<rect x="685" y="185" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="217.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">Y</text>
+
+<rect x="745" y="185" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+
+<rect x="805" y="185" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+
+<!-- Row 2 - Homerow -->
+<rect x="40" y="250" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="67.5" y="277.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">CTRL</text>
+
+<rect x="100" y="250" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="127.5" y="282.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">A</text>
+
+<rect x="160" y="250" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="282.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">R</text>
+
+<rect x="220" y="250" width="55" height="55" rx="8" fill="url(#homerow-mods)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="272.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">S</text>
+<text x="247.5" y="288" font-family="Arial" font-size="10" fill="#555555" text-anchor="middle" dominant-baseline="middle">ALT</text>
+
+<rect x="280" y="250" width="55" height="55" rx="8" fill="url(#layer-switch)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="272.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">T</text>
+<text x="307.5" y="288" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">4</text>
+
+<rect x="340" y="250" width="55" height="55" rx="8" fill="url(#homerow-mods)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="272.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">D</text>
+<text x="367.5" y="288" font-family="Arial" font-size="10" fill="#555555" text-anchor="middle" dominant-baseline="middle">GUI</text>
+
+<!-- Right side row 2 - Homerow -->
+<rect x="505" y="250" width="55" height="55" rx="8" fill="url(#homerow-mods)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="272.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">H</text>
+<text x="532.5" y="288" font-family="Arial" font-size="10" fill="#555555" text-anchor="middle" dominant-baseline="middle">GUI</text>
+
+<rect x="565" y="250" width="55" height="55" rx="8" fill="url(#layer-switch)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="272.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">N</text>
+<text x="592.5" y="288" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">4</text>
+
+<rect x="625" y="250" width="55" height="55" rx="8" fill="url(#homerow-mods)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="272.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">E</text>
+<text x="652.5" y="288" font-family="Arial" font-size="10" fill="#555555" text-anchor="middle" dominant-baseline="middle">CTRL</text>
+
+<rect x="685" y="250" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="282.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">I</text>
+
+<rect x="745" y="250" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="282.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">O</text>
+
+<rect x="805" y="250" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="832.5" y="277.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">ENTR</text>
+
+<!-- Row 3 -->
+<rect x="40" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="67.5" y="342.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">SHFT</text>
+
+<rect x="100" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="127.5" y="347.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">Z</text>
+
+<rect x="160" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="347.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">X</text>
+
+<rect x="220" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="347.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">C</text>
+
+<rect x="280" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="347.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">V</text>
+
+<rect x="340" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="347.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">B</text>
+
+<rect x="400" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="427.5" y="340" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">HOME</text>
+
+<!-- Right side row 3 -->
+<rect x="445" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="472.5" y="342.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">END</text>
+
+<rect x="505" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="347.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">K</text>
+
+<rect x="565" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="347.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">M</text>
+
+<rect x="625" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="347.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">,</text>
+
+<rect x="685" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="347.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">.</text>
+
+<rect x="745" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="347.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">/</text>
+
+<rect x="805" y="315" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="832.5" y="340" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">CAPW</text>
+
+<!-- Thumb cluster -->
+<rect x="220" y="385" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="412.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">BSPC</text>
+
+<rect x="280" y="385" width="55" height="55" rx="8" fill="url(#magic-key)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="407.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">NAV</text>
+<text x="307.5" y="423" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">LMAG</text>
+
+<rect x="340" y="385" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="407.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">SPC</text>
+<text x="367.5" y="423" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">TAB</text>
+
+<rect x="505" y="385" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="412.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">SHFT</text>
+
+<rect x="565" y="385" width="55" height="55" rx="8" fill="url(#magic-key)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="407.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">XTRA</text>
+<text x="592.5" y="423" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">RMAG</text>
+
+<rect x="625" y="385" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="412.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">ENTR</text>
+
+<!-- Layer 1: Game -->
+<text x="40" y="490" font-family="Arial" font-size="20" fill="#61afef" font-weight="bold">Layer 1: Game</text>
+
+<!-- Row 0 -->
+<rect x="40" y="530" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="67.5" y="562.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">ESC</text>
+
+<rect x="100" y="530" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="127.5" y="562.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">1</text>
+
+<rect x="160" y="530" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="562.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">2</text>
+
+<rect x="220" y="530" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="562.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">3</text>
+
+<rect x="280" y="530" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="562.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">4</text>
+
+<rect x="340" y="530" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="562.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">5</text>
+
+<rect x="505" y="530" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="562.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">6</text>
+
+<rect x="565" y="530" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="562.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">7</text>
+
+<rect x="625" y="530" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="562.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">8</text>
+
+<rect x="685" y="530" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="562.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">9</text>
+
+<rect x="745" y="530" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="562.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">0</text>
+
+<rect x="805" y="530" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="832.5" y="555" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">BSPC</text>
+
+<!-- Row 1 -->
+<rect x="40" y="595" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="67.5" y="627.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">TAB</text>
+
+<rect x="100" y="595" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="127.5" y="627.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">Q</text>
+
+<rect x="160" y="595" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="627.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">W</text>
+
+<rect x="220" y="595" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="627.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F</text>
+
+<rect x="280" y="595" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="627.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">P</text>
+
+<rect x="340" y="595" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="627.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">G</text>
+
+<rect x="505" y="595" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="627.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">J</text>
+
+<rect x="565" y="595" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="627.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">L</text>
+
+<rect x="625" y="595" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="627.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">U</text>
+
+<rect x="685" y="595" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="627.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">Y</text>
+
+<rect x="745" y="595" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+<rect x="805" y="595" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+
+<!-- Row 2 -->
+<rect x="40" y="660" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="67.5" y="687.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">CTRL</text>
+
+<rect x="100" y="660" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="127.5" y="692.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">A</text>
+
+<rect x="160" y="660" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="692.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">R</text>
+
+<rect x="220" y="660" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="692.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">S</text>
+
+<rect x="280" y="660" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="692.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">T</text>
+
+<rect x="340" y="660" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="692.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">D</text>
+
+<rect x="505" y="660" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="692.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">H</text>
+
+<rect x="565" y="660" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="692.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">N</text>
+
+<rect x="625" y="660" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="692.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">E</text>
+
+<rect x="685" y="660" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="692.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">I</text>
+
+<rect x="745" y="660" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="692.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">O</text>
+
+<rect x="805" y="660" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="832.5" y="687.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">ENTR</text>
+
+<!-- Row 3 -->
+<rect x="40" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="67.5" y="752.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">SHFT</text>
+
+<rect x="100" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="127.5" y="757.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">Z</text>
+
+<rect x="160" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="757.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">X</text>
+
+<rect x="220" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="757.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">C</text>
+
+<rect x="280" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="757.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">V</text>
+
+<rect x="340" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="757.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">B</text>
+
+<rect x="400" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="427.5" y="750" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">HOME</text>
+
+<rect x="445" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="472.5" y="752.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">END</text>
+
+<rect x="505" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="757.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">K</text>
+
+<rect x="565" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="757.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">M</text>
+
+<rect x="625" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="757.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">,</text>
+
+<rect x="685" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="757.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">.</text>
+
+<rect x="745" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="757.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">/</text>
+
+<rect x="805" y="725" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="832.5" y="752.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">CAPS</text>
+
+<!-- Thumb cluster -->
+<rect x="220" y="795" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="822.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">COL</text>
+
+<rect x="280" y="795" width="55" height="55" rx="8" fill="url(#layer-switch)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="822.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">NAV</text>
+
+<rect x="340" y="795" width="55" height="55" rx="8" fill="url(#layer-switch)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="817.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">SPC</text>
+<text x="367.5" y="833" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">BRC</text>
+
+<rect x="505" y="795" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="822.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">SHFT</text>
+
+<rect x="565" y="795" width="55" height="55" rx="8" fill="url(#layer-switch)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="822.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">XTRA</text>
+
+<rect x="625" y="795" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="822.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">COL</text>
+
+<!-- Layer 2: Navigation -->
+<text x="40" y="910" font-family="Arial" font-size="20" fill="#61afef" font-weight="bold">Layer 2: Navigation &amp; Numbers</text>
+
+<!-- Row 0 - Empty/System keys -->
+<rect x="40" y="950" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+<rect x="100" y="950" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+<rect x="160" y="950" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+<rect x="220" y="950" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+<rect x="280" y="950" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+<rect x="340" y="950" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="977.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">BOOT</text>
+
+<rect x="505" y="950" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+<rect x="565" y="950" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+<rect x="625" y="950" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+<rect x="685" y="950" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+<rect x="745" y="950" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+<rect x="805" y="950" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+
+<!-- Row 1 - Navigation and numbers -->
+<rect x="40" y="1015" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+<rect x="100" y="1015" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+
+<!-- Key highlights for navigation layer -->
+<rect x="160" y="1015" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="1037.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">PGDN</text>
+
+<rect x="220" y="1015" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="1047.5" font-family="Arial" font-size="18" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">↑</text>
+
+<rect x="280" y="1015" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="1037.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">PGUP</text>
+
+<rect x="340" y="1015" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+
+<rect x="505" y="1015" width="55" height="55" rx="8" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+
+<rect x="100" y="1010" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="127.5" y="1037.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">HOME</text>
+
+<rect x="160" y="1010" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="1042.5" font-family="Arial" font-size="18" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">←</text>
+
+<rect x="220" y="1010" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="1042.5" font-family="Arial" font-size="18" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">↓</text>
+
+<rect x="280" y="1010" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="1042.5" font-family="Arial" font-size="18" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">→</text>
+
+<rect x="340" y="1010" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="1037.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">END</text>
+
+<!-- Right side - Numbers -->
+<rect x="565" y="880" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="912.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">7</text>
+
+<rect x="625" y="880" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="912.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">8</text>
+
+<rect x="685" y="880" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="912.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">9</text>
+
+<rect x="745" y="880" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="912.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">0</text>
+
+<rect x="505" y="945" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="977.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">}</text>
+
+<rect x="565" y="945" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="977.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">4</text>
+
+<rect x="625" y="945" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="977.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">5</text>
+
+<rect x="685" y="945" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="977.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">6</text>
+
+<rect x="745" y="945" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="977.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">+</text>
+
+<rect x="805" y="945" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="832.5" y="977.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">|</text>
+
+<rect x="505" y="1010" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="1042.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">]</text>
+
+<rect x="565" y="1010" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="1042.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">1</text>
+
+<rect x="625" y="1010" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="1042.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">2</text>
+
+<rect x="685" y="1010" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="1042.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">3</text>
+
+<rect x="745" y="1010" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="1042.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">ß</text>
+
+<!-- Layer 3: Brackets -->
+<text x="40" y="1130" font-family="Arial" font-size="20" fill="#61afef" font-weight="bold">Layer 3: Brackets &amp; Function Keys</text>
+
+<!-- Function keys -->
+<rect x="40" y="1170" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="67.5" y="1202.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F12</text>
+
+<rect x="100" y="1170" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="127.5" y="1202.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F1</text>
+
+<rect x="160" y="1170" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="1202.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F2</text>
+
+<rect x="220" y="1170" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="1202.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F3</text>
+
+<rect x="280" y="1170" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="1202.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F4</text>
+
+<rect x="340" y="1170" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="1202.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F5</text>
+
+<rect x="505" y="1170" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="1202.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F6</text>
+
+<rect x="565" y="1170" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="1202.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F7</text>
+
+<rect x="625" y="1170" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="1202.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F8</text>
+
+<rect x="685" y="1170" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="1202.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F9</text>
+
+<rect x="745" y="1170" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="1202.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F10</text>
+
+<rect x="805" y="1170" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="832.5" y="1202.5" font-family="Arial" font-size="12" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">F11</text>
+
+<!-- Brackets -->
+<rect x="220" y="1235" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="1267.5" font-family="Arial" font-size="18" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">&lt;</text>
+
+<rect x="565" y="1235" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="1267.5" font-family="Arial" font-size="18" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">&gt;</text>
+
+<rect x="745" y="1235" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="1257.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">BOOT</text>
+
+<rect x="160" y="1300" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="1332.5" font-family="Arial" font-size="18" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">{</text>
+
+<rect x="220" y="1300" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="1332.5" font-family="Arial" font-size="18" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">[</text>
+
+<rect x="280" y="1300" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="1332.5" font-family="Arial" font-size="18" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">(</text>
+
+<rect x="565" y="1300" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="1332.5" font-family="Arial" font-size="18" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">)</text>
+
+<rect x="625" y="1300" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="1332.5" font-family="Arial" font-size="18" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">]</text>
+
+<rect x="685" y="1300" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="1332.5" font-family="Arial" font-size="18" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">}</text>
+
+<!-- Layer 4: Extra/Symbols -->
+<text x="40" y="1430" font-family="Arial" font-size="20" fill="#61afef" font-weight="bold">Layer 4: Extra (Symbols)</text>
+
+<!-- Symbols -->
+<rect x="160" y="1535" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="1567.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">`</text>
+
+<rect x="220" y="1535" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="1567.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">~</text>
+
+<rect x="280" y="1535" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="1567.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">+</text>
+
+<rect x="340" y="1535" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="1567.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">§</text>
+
+<rect x="565" y="1535" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="1567.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">\</text>
+
+<rect x="625" y="1535" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="1567.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">}</text>
+
+<rect x="100" y="1600" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="127.5" y="1632.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">=</text>
+
+<rect x="160" y="1600" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="1632.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">%</text>
+
+<rect x="220" y="1600" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="1632.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">!</text>
+
+<rect x="280" y="1600" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="1632.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">"</text>
+
+<rect x="340" y="1600" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="1632.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">$</text>
+
+<rect x="505" y="1600" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="532.5" y="1632.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">&amp;</text>
+
+<rect x="565" y="1600" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="1632.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">/</text>
+
+<rect x="625" y="1600" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="1632.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">?</text>
+
+<rect x="685" y="1600" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="1632.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">#</text>
+
+<rect x="745" y="1600" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="1632.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">|</text>
+
+<!-- Umlauts -->
+<rect x="100" y="1665" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="127.5" y="1697.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">ä</text>
+
+<rect x="160" y="1665" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="1697.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">ö</text>
+
+<rect x="220" y="1665" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="1697.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">ü</text>
+
+<rect x="280" y="1665" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="1697.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">|</text>
+
+<rect x="340" y="1665" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="1697.5" font-family="Arial" font-size="14" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">€</text>
+
+<!-- Layer 5: Media -->
+<text x="40" y="1790" font-family="Arial" font-size="20" fill="#61afef" font-weight="bold">Layer 5: Media Controls</text>
+
+<!-- Media controls -->
+<rect x="160" y="1895" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="1922.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">MUTE</text>
+
+<rect x="220" y="1895" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="1922.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">STOP</text>
+
+<rect x="280" y="1895" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="1922.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">VOL+</text>
+
+<rect x="745" y="1895" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="1917.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">RGB</text>
+<text x="772.5" y="1933" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">TOG</text>
+
+<rect x="160" y="1960" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="187.5" y="1987.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">PREV</text>
+
+<rect x="220" y="1960" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="1987.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">PLAY</text>
+
+<rect x="280" y="1960" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="1987.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">NEXT</text>
+
+<rect x="565" y="1960" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="1982.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">MODE</text>
+<text x="592.5" y="1998" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">+</text>
+
+<rect x="625" y="1960" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="1987.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">VAL+</text>
+
+<rect x="685" y="1960" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="1987.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">HUE+</text>
+
+<rect x="745" y="1960" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="1987.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">SPD+</text>
+
+<rect x="280" y="2025" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="2052.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">VOL-</text>
+
+<rect x="565" y="2025" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="2047.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">MODE</text>
+<text x="592.5" y="2063" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">-</text>
+
+<rect x="625" y="2025" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="652.5" y="2052.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">VAL-</text>
+
+<rect x="685" y="2025" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="712.5" y="2052.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">HUE-</text>
+
+<rect x="745" y="2025" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="772.5" y="2052.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">SPD-</text>
+
+<!-- Layer 6: Special -->
+<text x="40" y="2150" font-family="Arial" font-size="20" fill="#61afef" font-weight="bold">Layer 6: Special Functions</text>
+
+<rect x="220" y="2255" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="247.5" y="2282.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">PSTE</text>
+
+<rect x="280" y="2255" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="307.5" y="2282.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">COPY</text>
+
+<rect x="340" y="2255" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="367.5" y="2282.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">CUT</text>
+
+<rect x="565" y="2255" width="55" height="55" rx="8" fill="#2d2d2d" stroke="#3e3e3e" stroke-width="2"/>
+<text x="592.5" y="2277.5" font-family="Arial" font-size="11" fill="#e0e0e0" text-anchor="middle" dominant-baseline="middle">RELD</text>
+<text x="592.5" y="2293" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle" dominant-baseline="middle">⌘R/^R</text>
+
+<!-- Legend -->
+<text x="40" y="2420" font-family="Arial" font-size="18" fill="#2d2d2d" font-weight="bold">Legend</text>
+
+<rect x="40" y="2440" width="35" height="35" rx="6" fill="url(#homerow-mods)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="85" y="2462" font-family="Arial" font-size="14" fill="#2d2d2d">Homerow Mods</text>
+
+<rect x="40" y="2485" width="35" height="35" rx="6" fill="url(#layer-switch)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="85" y="2507" font-family="Arial" font-size="14" fill="#2d2d2d">Layer Switch</text>
+
+<rect x="40" y="2530" width="35" height="35" rx="6" fill="url(#magic-key)" stroke="#3e3e3e" stroke-width="2"/>
+<text x="85" y="2552" font-family="Arial" font-size="14" fill="#2d2d2d">Magic Keys (Text Expansion)</text>
+
+<rect x="40" y="2575" width="35" height="35" rx="6" fill="#f5f5f5" stroke="#999999" stroke-width="2" stroke-dasharray="5,3"/>
+<text x="85" y="2597" font-family="Arial" font-size="14" fill="#2d2d2d">Transparent/Unused</text>
+
+<!-- Magic Key Features -->
+<text x="40" y="2660" font-family="Arial" font-size="18" fill="#2d2d2d" font-weight="bold">Magic Key Features</text>
+
+<text x="40" y="2690" font-family="Arial" font-size="14" fill="#2d2d2d" font-weight="bold">Left Magic (LMAG):</text>
+<text x="40" y="2710" font-family="Arial" font-size="12" fill="#444444">• F → "unction"  • I → "on"  • T → "he"  • T (after re) → "urn"  • . → ".."</text>
+
+<text x="40" y="2750" font-family="Arial" font-size="14" fill="#2d2d2d" font-weight="bold">Right Magic (RMAG):</text>
+<text x="40" y="2770" font-family="Arial" font-size="12" fill="#444444">• Replace: AE → ä, OE → ö, UE → ü</text>
+<text x="40" y="2790" font-family="Arial" font-size="12" fill="#444444">• Expand: E → "nt"  • I → "ng"  • M → "ent"</text>
+
+<!-- OS Detection Features -->
+<text x="40" y="2840" font-family="Arial" font-size="18" fill="#2d2d2d" font-weight="bold">OS-Aware Features</text>
+<text x="40" y="2870" font-family="Arial" font-size="12" fill="#444444">• Brackets { } [ ] | auto-adapt for macOS vs Windows/Linux</text>
+<text x="40" y="2890" font-family="Arial" font-size="12" fill="#444444">• RELOAD key: ⌘R on macOS, Ctrl+R on Windows/Linux</text>
+
+<!-- Combos -->
+<text x="40" y="2940" font-family="Arial" font-size="18" fill="#2d2d2d" font-weight="bold">Combos</text>
+<text x="40" y="2970" font-family="Arial" font-size="12" fill="#444444">• G+A+M+E = Switch to Game Layer</text>
+
+<!-- Footer -->
+<text x="450" y="3450" font-family="Arial" font-size="12" fill="#888888" text-anchor="middle">Generated with QMK Firmware</text>
+<text x="450" y="3470" font-family="Arial" font-size="12" fill="#888888" text-anchor="middle">German Keyboard Layout with Advanced Text Expansion</text>
+
+</svg>
