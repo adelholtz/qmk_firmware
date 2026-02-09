@@ -6,7 +6,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      TD(MAGIC_TAB),  DE_Q, DE_W,  TRL_SPECIAL_F, TRL_MEDIA_P,    DE_G,                        DE_J,      TRL_MEDIA_L,     DE_U,       DE_Y,    XXXXXXX, XXXXXXX,
      KC_LCTL, DE_A, DE_R,  HRM_ALT_S,     HRL_BRACKETS_T, HRM_GUI_D,                   HRM_GUI_H, HRL_BRACKETS_N,  HRM_CTRL_E, DE_I,    DE_O,    KC_ENTER,
      KC_LSFT, DE_Z, DE_X,  DE_C,          DE_V, DE_B,                KC_HOME, KC_END,  DE_K,      DE_M,            DE_COMM,    KC_DOT,  KC_SLSH, CW_TOGG,
-                                            GAME, TD(NAV_LMAGIC), TD(SPACE_TAB), OSM(MOD_LSFT), TD(XTRA_RMAGIC), GAME // MO(_EXTRA)
+                            KC_BSPC, TD(NAV_LMAGIC), TD(SPACE_TAB), OSM(MOD_LSFT), TD(XTRA_RMAGIC), KC_ENTER
   ),
   [_GAME] = LAYOUT(
      QK_GESC, KC_1, KC_2, KC_3, KC_4, KC_5,                  KC_6, KC_7, KC_8, KC_9, KC_0,    KC_BSPC,
@@ -27,13 +27,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      _______, XXXXXXX, XXXXXXX, XXXXXXX,  DE_LABK, XXXXXXX,                      XXXXXXX, DE_RABK, XXXXXXX,  XXXXXXX, XXXXXXX, QK_BOOT,
      _______, XXXXXXX, LCURLY,  LBRACKET, DE_LPRN, XXXXXXX,                      XXXXXXX, DE_RPRN, RBRACKET, RCURLY,  XXXXXXX, XXXXXXX,
      _______, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX,   TO(0), _______,    XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-                                         XXXXXXX, XXXXXXX, KC_BSPC, KC_BSPC, QK_AREP, _______
+                                         XXXXXXX, XXXXXXX, KC_SPC, KC_ENTER, QK_AREP, _______
   ),
   [_EXTRA] = LAYOUT(
      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, QK_BOOT,                      XXXXXXX, XXXXXXX,   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
      _______, XXXXXXX, KC_GRV,  KC_TILD, KC_PLUS, DE_SECT,                      XXXXXXX, LSA(DE_7), KC_RCBR, XXXXXXX, XXXXXXX, XXXXXXX,
      _______, DE_EQL,  DE_PERC, DE_EXLM, DE_DQUO, DE_DLR,                       DE_AMPR, DE_SLSH,   DE_QUES, DE_HASH, PIPE_,   XXXXXXX,
-     _______, DE_ADIA, DE_ODIA, DE_UDIA, KC_PIPE, XXXXXXX,    TO(0), _______,   XXXXXXX, DE_BSLS,   XXXXXXX, XXXXXXX, DE_PIPE, XXXXXXX,
+     _______, DE_ADIA, DE_ODIA, DE_UDIA, KC_PIPE, DE_EUR,    TO(0), _______,   XXXXXXX, DE_BSLS,   XXXXXXX, XXXXXXX, DE_PIPE, XXXXXXX,
                                           XXXXXXX, _______, _______, _______, _______, _______
   ),
   [_MEDIA] = LAYOUT(
