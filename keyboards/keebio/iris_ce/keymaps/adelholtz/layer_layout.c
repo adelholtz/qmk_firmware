@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      _______, XXXXXXX, XXXXXXX, XXXXXXX,  DE_LABK, XXXXXXX,                      XXXXXXX, DE_RABK, XXXXXXX,  XXXXXXX, XXXXXXX, QK_BOOT,
      _______, XXXXXXX, LCURLY,  LBRACKET, DE_LPRN, XXXXXXX,                      XXXXXXX, DE_RPRN, RBRACKET, RCURLY,  XXXXXXX, XXXXXXX,
      _______, XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX,   TO(0), _______,    XXXXXXX, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-                                         XXXXXXX, XXXXXXX, KC_SPC, KC_ENTER, QK_AREP, _______
+                                         XXXXXXX, XXXXXXX, KC_TAB, LSFT(KC_ENTER), QK_AREP, _______
   ),
   [_EXTRA] = LAYOUT(
      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, QK_BOOT,                      XXXXXXX, XXXXXXX,   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
