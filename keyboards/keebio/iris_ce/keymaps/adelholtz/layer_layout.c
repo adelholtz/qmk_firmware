@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, QK_BOOT,                      XXXXXXX, XXXXXXX,   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
      _______, XXXXXXX, KC_GRV,  KC_TILD, KC_PLUS, DE_SECT,                      XXXXXXX, LSA(DE_7), KC_RCBR, XXXXXXX, XXXXXXX, XXXXXXX,
      _______, DE_EQL,  DE_PERC, DE_EXLM, DE_DQUO, DE_DLR,                       DE_AMPR, DE_SLSH,   DE_QUES, DE_HASH, PIPE_,   XXXXXXX,
-     _______, DE_ADIA, DE_ODIA, DE_UDIA, KC_PIPE, DE_EUR,    TO(0), _______,   XXXXXXX, DE_BSLS,   XXXXXXX, XXXXXXX, DE_PIPE, XXXXXXX,
+     _______, DE_ADIA, DE_ODIA, DE_UDIA, KC_PIPE, DE_EURO,    TO(0), _______,   XXXXXXX, DE_BSLS,   XXXXXXX, XXXXXXX, DE_PIPE, XXXXXXX,
                                           XXXXXXX, _______, _______, _______, _______, _______
   ),
   [_MEDIA] = LAYOUT(
