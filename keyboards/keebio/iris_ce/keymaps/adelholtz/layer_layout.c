@@ -3,7 +3,7 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_COLEMAK] = LAYOUT(
      QK_GESC, KC_1, KC_2,  KC_3,          KC_4,           KC_5,                        KC_6,      KC_7,            KC_8,      KC_9,       KC_0,    KC_BSPC,
-     TD(MAGIC_TAB),  DE_Q, DE_W,  TRL_SPECIAL_F, TRL_MEDIA_P,    DE_G,                        DE_J,      TRL_MEDIA_L,     DE_U,       DE_Y,    XXXXXXX, XXXXXXX,
+     TD(MAGIC_TAB),  TD(Q_ESC), DE_W,  TRL_SPECIAL_F, TRL_MEDIA_P,    DE_G,                        DE_J,      TRL_MEDIA_L,     DE_U,       DE_Y,    XXXXXXX, XXXXXXX,
      KC_LCTL, DE_A, DE_R,  HRM_ALT_S,     HRL_BRACKETS_T, HRM_GUI_D,                   HRM_GUI_H, HRL_BRACKETS_N,  HRM_CTRL_E, DE_I,    DE_O,    KC_ENTER,
      KC_LSFT, DE_Z, DE_X,  DE_C,          DE_V, DE_B,                KC_HOME, KC_END,  DE_K,      DE_M,            DE_COMM,    KC_DOT,  KC_SLSH, CW_TOGG,
                             KC_BSPC, TD(NAV_LMAGIC), TD(SPACE_TAB), OSM(MOD_LSFT), TD(XTRA_RMAGIC), KC_ENTER

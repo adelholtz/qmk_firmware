@@ -64,4 +64,5 @@ enum tap_dance_keys{
   MAGIC_TAB,
   NAV_LMAGIC,
   XTRA_RMAGIC,
+  Q_ESC,
 };
